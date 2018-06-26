@@ -1,21 +1,19 @@
-# HarnaisList
+# README
 
-**TODO: Add description**
+**harnais\_list**: The List Harness for the Harnais Family
+
+The package supports testing Lists and their contents.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `harnais_list` to your list of dependencies in `mix.exs`:
+Add **harnais\_list** to your list of dependencies in *mix.exs*:
 
-```elixir
-def deps do
-  [
-    {:harnais_list, "~> 0.1.0"}
-  ]
-end
-```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/harnais_list](https://hexdocs.pm/harnais_list).
+    def deps do
+      [{:harnais_list, "~> 0.1.0"}]
+    end
+
+## Examples
+
+See the examples in the [API Reference](https://hexdocs.pm/harnais_list/readme.html)
 
